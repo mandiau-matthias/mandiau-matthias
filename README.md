@@ -1,6 +1,6 @@
 # Automatron
 
-I'm Matthias Mandiau. Automatron is the name I use for my public engineering work.
+I'm Matthias Mandiau. I've worked in product analytics and engineering for ten years. Automatron is the name I use for the code I publish here.
 
 ### What I've worked on
 
@@ -8,7 +8,7 @@ Some of my early work was figuring out where people got stuck when booking a tri
 
 In Stockholm I built Despyke's behavioural data platform from scratch. I later wrote the first code for Inflectiv, where developers could publish and find datasets. I worked with the developers using those datasets to retrieve information for their AI applications. [Despyke and Inflectiv](https://matthias-mandiau-portfolio.lovable.app/work/inflectiv)
 
-At Upswitch I worked directly with Belgian accountants and built the workflow from importing a company's accounts to producing its valuation report. One bug in the public valuation workspace, Venus, shows why the details matter. Its forecast preview could turn recorded earnings of zero into an estimated profit. I changed it so the estimate is used for a missing value and an accountant's zero stays zero. [Read the fix and regression tests](https://github.com/UpswitchEU/venus/pull/108) · [Explore the valuation workspace](https://github.com/UpswitchEU/venus)
+At Upswitch I worked directly with Belgian accountants and built the workflow from importing a company's accounts to producing its valuation report. In Venus, the valuation frontend, a missing earnings figure could trigger an estimate. So could a recorded zero. I fixed the forecast preview so an accountant entering zero would see zero. [Read the fix and regression tests](https://github.com/UpswitchEU/venus/pull/108) · [Browse the archived frontend](https://github.com/UpswitchEU/venus)
 
 ### What I'm building in public now
 
