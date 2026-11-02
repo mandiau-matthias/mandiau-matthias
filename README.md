@@ -4,6 +4,9 @@ I’m Matthias Mandiau. I publish as Automatron. Over the past ten years, I’ve
 
 ## Projects you can try
 
+- **ValuationIQ.** Open the 23-page valuation for Canal Works, a fictional company. Change the cash balance and run the same engine locally to see how the equity value in the PDF changes. [Sample report](https://github.com/mandiau-matthias/valuation-iq/blob/main/examples/report.pdf) · [Inputs and code](https://github.com/mandiau-matthias/valuation-iq)
+- **Mercury A/B.** Try two versions of a sign-up page. See which invitation you got, reload, and check what happens when you sign up twice. The demo keeps its counts in your browser. [Try the experiment](https://mandiau-matthias.github.io/mercury-ab/) · [Read the code](https://github.com/mandiau-matthias/mercury-ab)
+- **Three Towers Trend Line.** Follow a weekly warning that cleared without a sell. Reproduce it with the Python model or load the editable indicator and backtest in TradingView’s Pine Editor. [Annotated chart and source](https://github.com/mandiau-matthias/three-towers-trend-line)
 - **Before You Run.** Someone sends you a coding exercise. Paste the public GitHub link into your browser to see which npm setup commands the root project declares before you run it. [Try the example](https://mandiau-matthias.github.io/before-you-run/) · [Read the code](https://github.com/mandiau-matthias/before-you-run)
 - **Passkey approvals.** You approve a deployment to staging, then an agent changes the destination to production. I built a small worker and 11 tests so you can see what catches the switch. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Upstream contribution](https://github.com/countersign-labs/counter-sign/pull/2)
 
