@@ -1,9 +1,19 @@
-# Matthias Mandiau · Automatron
+# Automatron
 
-I build tools that let developers check what their automation actually did. My current question is what happens between a person's approval and the moment an agent acts on it.
+I'm Matthias Mandiau. I build security tests for software that acts on someone's behalf. The question I keep coming back to is whether the action a person approves is the one the system actually performs.
 
-**Try the experiment.** Approve one commit for staging, then try to switch to production, swap the commit, or replay the receipt after restarting the worker. I wrote the deployment worker, software passkey fixture and eleven tests. [Run the approval tests](https://github.com/mandiau-matthias/approval-binding-tests)
+## What did the passkey approve?
 
-**Upstream contribution.** I added a test to counter-sign that hands a valid passkey receipt to a second invocation and checks that the guarded function runs only once. [Read the pull request](https://github.com/countersign-labs/counter-sign/pull/2)
+A developer approves a commit for staging. Before the deployment runs, an agent changes the destination to production. The signature is still valid. Should the worker accept it?
 
-I also publish tools on Apify, including Code Kai for finding risky code patterns and dependency advisories. I'm interested in hands-on engineering work on agent security and developer tools. [Automatron on Apify](https://apify.com/automatron) · [Contact](https://www.linkedin.com/in/matthias-mandiau-2a5a2aa5/)
+I built a local deployment worker, a software passkey and 11 tests so you can try it yourself. Remove the check that compares the final deployment arguments with the approved request and two tests fail. One catches the destination change. The other catches a commit swap. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Read the tests](https://github.com/mandiau-matthias/approval-binding-tests/blob/main/test/deploy.test.mjs)
+
+## Engineering in public
+
+- **Session isolation at Upswitch.** I fixed a credential-selection bug in our valuation workspace. When cookies identify conflicting sessions, the server now withholds the access token. [Merged fix and regression tests](https://github.com/UpswitchEU/venus/pull/38)
+- **Replay protection in counter-sign.** I submitted a test that hands a previously accepted passkey receipt to a second deployment. It checks how many times the guarded function actually runs. [Upstream pull request](https://github.com/countersign-labs/counter-sign/pull/2)
+- **Backup deletion in NoSignal.** An autonomous agent submitted a browser-test change from my account. It exercises password confirmation before deleting a backup and removes machine-specific fixture paths. The maintainer merged it. [Patch and attribution](https://github.com/DragonCuds/nosignal/pull/32)
+
+I also publish Code Kai on Apify. It scans supplied code for potential secrets, risky patterns and dependency advisories, and points to the affected lines. [Try Code Kai](https://apify.com/automatron/code-kai-security-risk-scan)
+
+I'm open to hands-on engineering roles and contracts in agent security and developer tooling. [Get in touch](https://matthias-mandiau-portfolio.lovable.app/#contact)
