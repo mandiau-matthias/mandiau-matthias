@@ -1,22 +1,18 @@
 # Automatron
 
-I'm Matthias Mandiau. I build security tools for developers. My work starts with everyday decisions like opening a coding exercise from a stranger or letting an AI agent deploy a change.
+I'm Matthias Mandiau. Automatron is the name I use for my public engineering work.
 
-### Before You Run
+### What I've worked on
 
-A recruiter sends you a GitHub project and asks you to run `npm install`. Paste its public link into Before You Run to see the setup commands declared by the root package, with links to the exact revision. You can try the example in your browser before downloading anything. The tool never executes the project. [Try Before You Run](https://mandiau-matthias.github.io/before-you-run/) · [Read the source](https://github.com/mandiau-matthias/before-you-run)
+Some of my early work was figuring out where people got stuck when booking a trip or checking out. At PlayPilot I set up the experimentation programme and helped build the in-house A/B testing framework. We used it to test changes to sign-up and onboarding. [PlayPilot case study](https://matthias-mandiau-portfolio.lovable.app/work/playpilot)
 
-### What did the passkey approve?
+In Stockholm I built Despyke's behavioural data platform from scratch. I later wrote the first code for Inflectiv, where developers could publish and find datasets. I worked with the developers using those datasets to retrieve information for their AI applications. [Despyke and Inflectiv](https://matthias-mandiau-portfolio.lovable.app/work/inflectiv)
 
-You approve a commit for staging. An agent changes the destination to production. The original signature still verifies. I built a deployment worker and 11 tests to check what happens next. Remove the final comparison and two tests catch the mistake, one for a destination change and one for a commit swap. [Run the tests](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Review the proposed counter-sign test](https://github.com/countersign-labs/counter-sign/pull/2)
+At Upswitch I worked directly with Belgian accountants and built the workflow from importing a company's accounts to producing its valuation report. One bug in the public valuation workspace, Venus, shows why the details matter. Its forecast preview could turn recorded earnings of zero into an estimated profit. I changed it so the estimate is used for a missing value and an accountant's zero stays zero. [Read the fix and regression tests](https://github.com/UpswitchEU/venus/pull/108) · [Explore the valuation workspace](https://github.com/UpswitchEU/venus)
 
-### Merged patches
+### What I'm building in public now
 
-- **Upswitch.** I fixed a bug that could select the wrong access token when cookies identified conflicting sessions. [Fix and regression tests](https://github.com/UpswitchEU/venus/pull/38)
-- **NoSignal.** An autonomous agent submitted a browser test from my account covering password confirmation before backup deletion. [Patch and attribution](https://github.com/DragonCuds/nosignal/pull/32)
+- **Before You Run.** Paste a public GitHub project link to see which setup commands its root npm package declares before running it on your laptop. [Try it in your browser](https://mandiau-matthias.github.io/before-you-run/) · [Source](https://github.com/mandiau-matthias/before-you-run)
+- **Passkey approval tests.** What happens if an agent changes a deployment from staging to production after someone approves it? I wrote a small deployment worker and 11 tests so you can reproduce the change and see where it gets caught. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Upstream contribution](https://github.com/countersign-labs/counter-sign/pull/2)
 
-I also publish as Automatron on Apify, where Code Kai flags risky patterns in source code. [Automatron on Apify](https://apify.com/automatron) · [Code Kai](https://apify.com/automatron/code-kai-security-risk-scan)
-
-Found an npm setup command the inspector misses? A small, public example and the output you expected would help me fix it. [Report a case](https://github.com/mandiau-matthias/before-you-run/issues)
-
-I'm open to hands-on engineering roles and contracts in developer security. [Get in touch](https://matthias-mandiau-portfolio.lovable.app/#contact)
+I also publish automation tools on Apify. I'm open to hands-on engineering roles and contracts building data products and developer tools. [Automatron on Apify](https://apify.com/automatron) · [Get in touch](https://matthias-mandiau-portfolio.lovable.app/#contact)
