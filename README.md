@@ -1,8 +1,8 @@
 # Automatron
 
-I'm Matthias Mandiau. Automatron is the name I use for my public engineering work. I build and experiment in the hope of making life a little better for the people who use what I make.
+I'm Matthias Mandiau. Automatron is the name I use for my public engineering work. I like taking a question far enough that someone else can try the idea for themselves.
 
-Travel shapes what I pay attention to. I love the art and architecture of a place, the landscape around it and what people cook there. For Unnavigated, I wrote about my travels and photographed what caught my eye. Closer to home, I'm developing Tafelreizen with my parents. We're planning dinners that pair homemade food with stories from the places our family comes from, starting in Belgian Limburg. [Travel photographs and stories](https://matthias-mandiau-portfolio.lovable.app/work/unnavigated) · [Tafelreizen](https://matthias-mandiau-portfolio.lovable.app/work/tafelreizen)
+How do you tell the story of a place? For Unnavigated, I wrote about my travels and photographed what caught my eye. At home in Belgium, that curiosity has taken me into the kitchen. I'm developing Tafelreizen with my parents. We're planning dinners that pair homemade food with stories from the towns our family comes from in Belgian Limburg. [Travel photographs and stories](https://matthias-mandiau-portfolio.lovable.app/work/unnavigated) · [Tafelreizen](https://matthias-mandiau-portfolio.lovable.app/work/tafelreizen)
 
 ### Ten years of building and testing
 
