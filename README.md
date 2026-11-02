@@ -1,20 +1,22 @@
 # Automatron
 
-I'm Matthias Mandiau. I build security tools for the person at the keyboard. Two decisions interest me in particular. What will happen if I run this project someone sent me? And if I approve one action, can the software quietly do something else?
+I'm Matthias Mandiau. I build security tools for developers. My work starts with everyday decisions like opening a coding exercise from a stranger or letting an AI agent deploy a change.
 
 ### Before You Run
 
-Someone sends you a coding exercise. Before cloning it, paste the public GitHub link into **Before You Run**. It shows the commands the root project can start during `npm install` and the files they come from. You can try a harmless example in one click. The check runs in your browser and never executes the project. Dependencies and the sender's identity are outside its scope. [Try Before You Run](https://mandiau-matthias.github.io/before-you-run/) · [Inspect the code](https://github.com/mandiau-matthias/before-you-run)
+A recruiter sends you a GitHub project and asks you to run `npm install`. Paste its public link into Before You Run to see the setup commands declared by the root package, with links to the exact revision. You can try the example in your browser before downloading anything. The tool never executes the project. [Try Before You Run](https://mandiau-matthias.github.io/before-you-run/) · [Read the source](https://github.com/mandiau-matthias/before-you-run)
 
 ### What did the passkey approve?
 
-A developer approves a commit for staging. An agent switches the destination to production. The signature is still valid. My deployment lab checks the arguments again just before execution. Remove that check and two of the 11 tests fail, one for a destination change and one for a commit swap. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Upstream replay test](https://github.com/countersign-labs/counter-sign/pull/2)
+You approve a commit for staging. An agent changes the destination to production. The original signature still verifies. I built a deployment worker and 11 tests to check what happens next. Remove the final comparison and two tests catch the mistake, one for a destination change and one for a commit swap. [Run the tests](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Review the proposed counter-sign test](https://github.com/countersign-labs/counter-sign/pull/2)
 
-### Fixes you can inspect
+### Merged patches
 
-- **Session isolation at Upswitch.** I fixed a bug that could select the wrong access token when cookies identified conflicting sessions. [Merged fix and tests](https://github.com/UpswitchEU/venus/pull/38)
-- **Backup deletion in NoSignal.** An autonomous agent submitted a browser test from my account covering password confirmation before backup deletion. The maintainer merged it. [Patch and attribution](https://github.com/DragonCuds/nosignal/pull/32)
+- **Upswitch.** I fixed a bug that could select the wrong access token when cookies identified conflicting sessions. [Fix and regression tests](https://github.com/UpswitchEU/venus/pull/38)
+- **NoSignal.** An autonomous agent submitted a browser test from my account covering password confirmation before backup deletion. [Patch and attribution](https://github.com/DragonCuds/nosignal/pull/32)
 
-I also publish Code Kai, which points developers to risky patterns in source code. [Code Kai on Apify](https://apify.com/automatron/code-kai-security-risk-scan)
+I also publish as Automatron on Apify, where Code Kai flags risky patterns in source code. [Automatron on Apify](https://apify.com/automatron) · [Code Kai](https://apify.com/automatron/code-kai-security-risk-scan)
+
+Found an npm setup command the inspector misses? A small, public example and the output you expected would help me fix it. [Report a case](https://github.com/mandiau-matthias/before-you-run/issues)
 
 I'm open to hands-on engineering roles and contracts in developer security. [Get in touch](https://matthias-mandiau-portfolio.lovable.app/#contact)
