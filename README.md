@@ -1,19 +1,20 @@
 # Automatron
 
-I'm Matthias Mandiau. I build security tests for software that acts on someone's behalf. The question I keep coming back to is whether the action a person approves is the one the system actually performs.
+I'm Matthias Mandiau. I build security tools for the person at the keyboard. Two decisions interest me in particular. What will happen if I run this project someone sent me? And if I approve one action, can the software quietly do something else?
 
-## What did the passkey approve?
+### Before You Run
 
-A developer approves a commit for staging. Before the deployment runs, an agent changes the destination to production. The signature is still valid. Should the worker accept it?
+Someone sends you a coding exercise. Before cloning it, paste the public GitHub link into **Before You Run**. It shows the commands the root project can start during `npm install` and the files they come from. You can try a harmless example in one click. The check runs in your browser and never executes the project. Dependencies and the sender's identity are outside its scope. [Try Before You Run](https://mandiau-matthias.github.io/before-you-run/) · [Inspect the code](https://github.com/mandiau-matthias/before-you-run)
 
-I built a local deployment worker, a software passkey and 11 tests so you can try it yourself. Remove the check that compares the final deployment arguments with the approved request and two tests fail. One catches the destination change. The other catches a commit swap. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Read the tests](https://github.com/mandiau-matthias/approval-binding-tests/blob/main/test/deploy.test.mjs)
+### What did the passkey approve?
 
-## Engineering in public
+A developer approves a commit for staging. An agent switches the destination to production. The signature is still valid. My deployment lab checks the arguments again just before execution. Remove that check and two of the 11 tests fail, one for a destination change and one for a commit swap. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Upstream replay test](https://github.com/countersign-labs/counter-sign/pull/2)
 
-- **Session isolation at Upswitch.** I fixed a credential-selection bug in our valuation workspace. When cookies identify conflicting sessions, the server now withholds the access token. [Merged fix and regression tests](https://github.com/UpswitchEU/venus/pull/38)
-- **Replay protection in counter-sign.** I submitted a test that hands a previously accepted passkey receipt to a second deployment. It checks how many times the guarded function actually runs. [Upstream pull request](https://github.com/countersign-labs/counter-sign/pull/2)
-- **Backup deletion in NoSignal.** An autonomous agent submitted a browser-test change from my account. It exercises password confirmation before deleting a backup and removes machine-specific fixture paths. The maintainer merged it. [Patch and attribution](https://github.com/DragonCuds/nosignal/pull/32)
+### Fixes you can inspect
 
-I also publish Code Kai on Apify. It scans supplied code for potential secrets, risky patterns and dependency advisories, and points to the affected lines. [Try Code Kai](https://apify.com/automatron/code-kai-security-risk-scan)
+- **Session isolation at Upswitch.** I fixed a bug that could select the wrong access token when cookies identified conflicting sessions. [Merged fix and tests](https://github.com/UpswitchEU/venus/pull/38)
+- **Backup deletion in NoSignal.** An autonomous agent submitted a browser test from my account covering password confirmation before backup deletion. The maintainer merged it. [Patch and attribution](https://github.com/DragonCuds/nosignal/pull/32)
 
-I'm open to hands-on engineering roles and contracts in agent security and developer tooling. [Get in touch](https://matthias-mandiau-portfolio.lovable.app/#contact)
+I also publish Code Kai, which points developers to risky patterns in source code. [Code Kai on Apify](https://apify.com/automatron/code-kai-security-risk-scan)
+
+I'm open to hands-on engineering roles and contracts in developer security. [Get in touch](https://matthias-mandiau-portfolio.lovable.app/#contact)
