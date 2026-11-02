@@ -1,18 +1,18 @@
 # Automatron
 
-I'm Matthias Mandiau. I've worked in product analytics and engineering for ten years. Automatron is the name I use for the code I publish here.
+I'm Matthias Mandiau. Automatron is the name I use for my public engineering work. I build and experiment in the hope of making life a little better for the people who use what I make.
 
-### What I've worked on
+Travel shapes what I pay attention to. I love the art and architecture of a place, the landscape around it and what people cook there. For Unnavigated, I wrote about my travels and photographed what caught my eye. Closer to home, I'm developing Tafelreizen with my parents. We're planning dinners that pair homemade food with stories from the places our family comes from, starting in Belgian Limburg. [Travel photographs and stories](https://matthias-mandiau-portfolio.lovable.app/work/unnavigated) · [Tafelreizen](https://matthias-mandiau-portfolio.lovable.app/work/tafelreizen)
 
-Some of my early work was figuring out where people got stuck when booking a trip or checking out. At PlayPilot I set up the experimentation programme and helped build the in-house A/B testing framework. We used it to test changes to sign-up and onboarding. [PlayPilot case study](https://matthias-mandiau-portfolio.lovable.app/work/playpilot)
+### Ten years of building and testing
 
-In Stockholm I built Despyke's behavioural data platform from scratch. I later wrote the first code for Inflectiv, where developers could publish and find datasets. I worked with the developers using those datasets to retrieve information for their AI applications. [Despyke and Inflectiv](https://matthias-mandiau-portfolio.lovable.app/work/inflectiv)
+My background is in product analytics and engineering. At PlayPilot I set up the experimentation programme and helped build the A/B testing framework we used to test sign-up and onboarding. In Stockholm I built Despyke's behavioural data platform. I later wrote the first code for Inflectiv, where developers could publish and find datasets for their applications. [PlayPilot](https://matthias-mandiau-portfolio.lovable.app/work/playpilot) · [Despyke and Inflectiv](https://matthias-mandiau-portfolio.lovable.app/work/inflectiv)
 
-At Upswitch I worked directly with Belgian accountants and built the workflow from importing a company's accounts to producing its valuation report. In Venus, the valuation frontend, a missing earnings figure could trigger an estimate. So could a recorded zero. I fixed the forecast preview so an accountant entering zero would see zero. [Read the fix and regression tests](https://github.com/UpswitchEU/venus/pull/108) · [Browse the archived frontend](https://github.com/UpswitchEU/venus)
+At Upswitch I worked with Belgian accountants to build the workflow from importing accounts to producing a valuation report. In the forecast preview, a recorded zero could be mistaken for a missing earnings figure and replaced with an estimate. I fixed it so an accountant who entered zero would see zero. [The fix and its tests](https://github.com/UpswitchEU/venus/pull/108) · [Archived valuation frontend](https://github.com/UpswitchEU/venus)
 
-### What I'm building in public now
+### Experiments you can try
 
-- **Before You Run.** Paste a public GitHub project link to see which setup commands its root npm package declares before running it on your laptop. [Try it in your browser](https://mandiau-matthias.github.io/before-you-run/) · [Source](https://github.com/mandiau-matthias/before-you-run)
-- **Passkey approval tests.** What happens if an agent changes a deployment from staging to production after someone approves it? I wrote a small deployment worker and 11 tests so you can reproduce the change and see where it gets caught. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Upstream contribution](https://github.com/countersign-labs/counter-sign/pull/2)
+- **Before You Run.** Someone sends you a coding exercise. Paste the public GitHub link into your browser to see which npm setup commands the root project declares before you run it. [Try the example](https://mandiau-matthias.github.io/before-you-run/) · [Read the code](https://github.com/mandiau-matthias/before-you-run)
+- **Passkey approvals.** You approve a deployment to staging, then an agent changes the destination to production. I built a small worker and 11 tests so you can see what catches the switch. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Upstream contribution](https://github.com/countersign-labs/counter-sign/pull/2)
 
-I also publish automation tools on Apify. I'm open to hands-on engineering roles and contracts building data products and developer tools. [Automatron on Apify](https://apify.com/automatron) · [Get in touch](https://matthias-mandiau-portfolio.lovable.app/#contact)
+I'm open to hands-on engineering roles and collaborations on data products and developer tools. [Get in touch](https://matthias-mandiau-portfolio.lovable.app/#contact) · [Automatron on Apify](https://apify.com/automatron)
