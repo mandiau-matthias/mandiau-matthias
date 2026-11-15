@@ -4,18 +4,31 @@ I’m Matthias Mandiau. I publish as Automatron. Over the past ten years, I’ve
 
 ## Projects you can try
 
-- **Company Graph.** Follow company facts back to their sources. Compare two conflicting revenue figures, see why a similar company name remains unmerged, and generate company pages with structured data from your own records. [Explore the graph](https://mandiau-matthias.github.io/company-graph/) · [Use the enrichment library](https://github.com/mandiau-matthias/company-graph)
-- **Inflectiv Source Inspector.** Change a coffee recipe and inspect the record behind the answer. Disconnect a source to expose the gap, then try the same interaction with a shop's return policy. Use the React component in your own app. [Try both examples](https://mandiau-matthias.github.io/inflectiv-source-inspector/) · [Use the component](https://github.com/mandiau-matthias/inflectiv-source-inspector) · [Original coffee counter](https://mandiau-matthias.github.io/inflectiv-coffee/)
-- **LLM Privacy.** See which names and amounts would leave a fictional invoice on its way to a model. Add an unlabelled reference and watch the library withhold the request. The send helper passes only scrubbed text to your provider callback. [Inspect the invoice](https://mandiau-matthias.github.io/llm-privacy/) · [Connect your sender](https://github.com/mandiau-matthias/llm-privacy#put-a-boundary-around-the-provider-call)
-- **Mercury A/B.** Try two versions of a sign-up page. Reload and check what happens when you sign up twice. A separate React example demonstrates matching server and browser assignment with consent-aware counting. [Try the experiment](https://mandiau-matthias.github.io/mercury-ab/) · [Run the React integration](https://github.com/mandiau-matthias/mercury-ab/tree/main/examples/react-signup)
-- **ValuationIQ.** Open the 23-page valuation for Canal Works, a fictional company. Change the cash balance and run the same engine locally to see how the equity value in the PDF changes. [Sample report](https://github.com/mandiau-matthias/valuation-iq/blob/main/examples/report.pdf) · [Inputs and code](https://github.com/mandiau-matthias/valuation-iq)
-- **Ilara Trend Spotter.** Replay five days of fictional search and video observations. See when a topic crossed an interest threshold and what happened after the alert, including a rise that did not last. [Replay the example](https://mandiau-matthias.github.io/ilara-trend-spotter/) · [Inspect the scoring algorithm](https://github.com/mandiau-matthias/ilara-trend-spotter)
-- **Trend Line.** Follow a weekly warning that cleared without a sell. Run the indicator or backtest in TradingView’s Pine Editor. Both matched the reference over 794 completed BTC/USD weeks. [Download the Pine scripts](https://github.com/mandiau-matthias/trend-line/releases/tag/v1.6.6) · [See the warning on a chart](https://github.com/mandiau-matthias/trend-line#a-warning-that-never-became-a-sell)
+**Hardwire is my current focus.** Turn a saved HTML form into a candidate action contract, test its inputs, and generate an MCP tool description. The command works locally and never calls the form's endpoint. I'm looking for forms that expose where the inference breaks.
 
-### Security experiments
+[Try the three actions](https://automatron-workflows.github.io/hardwire/experiment.html) · [Run it on your own form](https://github.com/Automatron-workflows/hardwire/blob/main/docs/FORM-EXPERIMENT.md) · [Code and releases](https://github.com/Automatron-workflows/hardwire)
 
-- **Before You Run.** Inspect the npm setup commands a public GitHub project declares before running a coding exercise. [Try the example](https://mandiau-matthias.github.io/before-you-run/) · [Read the code](https://github.com/mandiau-matthias/before-you-run)
-- **Passkey approvals.** Approve staging, then try switching the deployment to production. A small worker and 11 tests show what catches the change. [Run the experiment](https://github.com/mandiau-matthias/approval-binding-tests#run-it) · [Upstream contribution](https://github.com/countersign-labs/counter-sign/pull/2)
+- **Functional Minimalism.** Bring your design system and accepted decisions into the next screen brief. Try a film picker, a simulated invoice, or a task list; then inspect and download the brief. [Try the workshop](https://automatron-workflows.github.io/functional-minimalism/) · [Use the harness](https://github.com/Automatron-workflows/functional-minimalism)
+- **Inflectiv Source Inspector.** Change a coffee recipe and inspect the record behind the answer. Disconnect a source to expose the gap, then use the same React component for a shop's return policy. [Try both examples](https://mandiau-matthias.github.io/inflectiv-source-inspector/) · [Use the component](https://github.com/mandiau-matthias/inflectiv-source-inspector)
+- **Company Graph.** Follow company facts back to their sources. Compare conflicting revenue figures, inspect a deliberately unmerged company name, and generate structured company pages from your own records. [Explore the graph](https://mandiau-matthias.github.io/company-graph/) · [Use the enrichment library](https://github.com/mandiau-matthias/company-graph)
+
+Follow along for working examples, the decisions behind them, and fixes from people trying them. A reproducible failure or a small contribution is welcome.
+
+<details>
+<summary>More tools from my product and engineering work</summary>
+
+| Project | Something you can try |
+| --- | --- |
+| [ValuationIQ](https://github.com/mandiau-matthias/valuation-iq) | Open the [fictional company's valuation PDF](https://github.com/mandiau-matthias/valuation-iq/blob/main/examples/report.pdf), change an assumption, and generate a new report locally. |
+| [Mercury A/B](https://github.com/mandiau-matthias/mercury-ab) | [Try a two-version sign-up page](https://mandiau-matthias.github.io/mercury-ab/), reload it, and inspect consent-aware counts. A React example covers server/browser agreement. |
+| [LLM Privacy](https://github.com/mandiau-matthias/llm-privacy) | [Inspect a fictional invoice](https://mandiau-matthias.github.io/llm-privacy/) before it reaches a model. Add an unlabelled reference and see the request withheld. |
+| [Trend Line](https://github.com/mandiau-matthias/trend-line) | [Download editable Pine scripts](https://github.com/mandiau-matthias/trend-line/releases/tag/v1.6.6) and reproduce a weekly warning that cleared without a sell. |
+| [Ilara Trend Spotter](https://github.com/mandiau-matthias/ilara-trend-spotter) | [Replay fictional search and video observations](https://mandiau-matthias.github.io/ilara-trend-spotter/) and follow a topic after its alert, including a rise that did not last. |
+| [Inflectiv Coffee](https://github.com/mandiau-matthias/inflectiv-coffee) | [Change a brew at the coffee counter](https://mandiau-matthias.github.io/inflectiv-coffee/) and inspect the fictional batch records behind the answer. |
+| [Before You Run](https://github.com/mandiau-matthias/before-you-run) | [Inspect declared npm setup commands](https://mandiau-matthias.github.io/before-you-run/) before running a coding exercise. |
+| [Approval Binding Tests](https://github.com/mandiau-matthias/approval-binding-tests) | Approve staging, then try switching to production. [Run the tests](https://github.com/mandiau-matthias/approval-binding-tests#run-it) or inspect the [upstream contribution](https://github.com/countersign-labs/counter-sign/pull/2). |
+
+</details>
 
 ### Ten years of building and testing
 
