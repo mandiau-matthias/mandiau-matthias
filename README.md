@@ -1,6 +1,6 @@
 # Automatron
 
-I’m Matthias Mandiau. I publish as Automatron. Over the past ten years, I’ve helped product teams test what works and built tools with accountants to value businesses. This is where I share those tools and the experiments I’m working on. You’re welcome to run them, question the results, and improve them.
+I’m Matthias Mandiau. I publish as Automatron. Over the past ten years, I have built quite a few things myself and helped both large and small companies with their products. This is where I share those tools and the experiments I’m working on. You’re welcome to run them, question the results, and improve them.
 
 ## Projects you can try
 
