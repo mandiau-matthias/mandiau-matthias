@@ -13,7 +13,7 @@ Most software asks you to trust the summary. These ask you to open it.
 [Run the tests](https://github.com/mandiau-matthias/approval-binding-tests#run-it)
 
 **Argus Harness** — keep metric definitions, units, freshness and missing data visible across BigQuery, Snowflake, Redshift, Athena, Postgres, DuckDB, HTTP, CSV and static sources. One catalog for a code-owned dashboard and Looker Studio.
-[Try the workshop](https://automatron-workflows.github.io/argus-harness/) · [Download v0.2.3](https://github.com/Automatron-workflows/argus-harness/releases/tag/v0.2.3)
+[Try the workshop](https://automatron-workflows.github.io/argus-harness/) · [Download v0.2.4](https://github.com/Automatron-workflows/argus-harness/releases/tag/v0.2.4)
 
 **Inflectiv Source Inspector** — open the exact record behind an answer, then disconnect a source and watch the gap appear.
 [Try both examples](https://mandiau-matthias.github.io/inflectiv-source-inspector/)
