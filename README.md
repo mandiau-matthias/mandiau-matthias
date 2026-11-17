@@ -12,6 +12,9 @@ Most software asks you to trust the summary. These ask you to open it.
 **Approval Binding Tests** — approve staging, then try to switch the destination to production. Eleven offline WebAuthn tests for substitution, expiry and replay.
 [Run the tests](https://github.com/mandiau-matthias/approval-binding-tests#run-it)
 
+**Argus Harness** — keep metric definitions, units, freshness and missing data visible across BigQuery, HTTP, CSV and static sources. One catalog for a code-owned dashboard and Looker Studio.
+[Try the workshop](https://automatron-workflows.github.io/argus-harness/) · [Download v0.1.0](https://github.com/Automatron-workflows/argus-harness/releases/tag/v0.1.0)
+
 **Inflectiv Source Inspector** — open the exact record behind an answer, then disconnect a source and watch the gap appear.
 [Try both examples](https://mandiau-matthias.github.io/inflectiv-source-inspector/)
 
