@@ -15,8 +15,8 @@ Most software asks you to trust the summary. These ask you to open it.
 **Argus Harness** — keep metric definitions, units, freshness and missing data visible across BigQuery, Snowflake, Redshift, Athena, Postgres, DuckDB, HTTP, CSV and static sources. One catalog for a code-owned dashboard and Looker Studio.
 [Try the workshop](https://automatron-workflows.github.io/argus-harness/) · [Download v0.2.4](https://github.com/Automatron-workflows/argus-harness/releases/tag/v0.2.4)
 
-**Ad Harness** — a labelled sponsored card inside an LLM conversation. Watch eight seconds, earn free credits for the selected model, and inspect the single use receipt.
-[Try the inline demo](https://automatron-workflows.github.io/ad-harness/) · [Source](https://github.com/Automatron-workflows/ad-harness)
+**Underwrite** — a labelled sponsor card inside an LLM conversation. Watch eight seconds, earn free credits for the selected model, inspect the single use receipt, and see the same placement in Claude, ChatGPT and Gemini style shells.
+[Try the inline demo](https://automatron-workflows.github.io/underwrite/) · [Host previews](https://automatron-workflows.github.io/underwrite/hosts.html) · [Source](https://github.com/Automatron-workflows/underwrite)
 
 **Inflectiv Source Inspector** — open the exact record behind an answer, then disconnect a source and watch the gap appear.
 [Try both examples](https://mandiau-matthias.github.io/inflectiv-source-inspector/)
@@ -34,7 +34,7 @@ I care about this because most of my career has been in analytics, where the num
 | Project | Something you can try |
 | --- | --- |
 | [Before You Run](https://github.com/mandiau-matthias/before-you-run) | Inspect the setup commands of a repository or the built-in example, without installing anything. |
-| [Ad Harness](https://github.com/Automatron-workflows/ad-harness) | Watch an inline sponsored card, earn free credits for the selected model, and inspect the single use receipt. |
+| [Underwrite](https://github.com/Automatron-workflows/underwrite) | Watch an inline sponsor card, earn free credits for the selected model, inspect the single use receipt, and compare host-native treatments. |
 | [Approval Binding Tests](https://github.com/mandiau-matthias/approval-binding-tests) | Approve staging, switch to production, and watch the suite refuse it. |
 | [Inflectiv Source Inspector](https://github.com/mandiau-matthias/inflectiv-source-inspector) | Inspect the record behind an answer and handle a disconnected source. |
 | [Trend Line](https://github.com/mandiau-matthias/trend-line) | Download editable Pine scripts and reproduce a weekly warning that cleared without a sell. |
